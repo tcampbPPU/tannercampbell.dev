@@ -45,9 +45,9 @@ export default defineNuxtConfig({
     },
   },
 
-  app: {
-    cdnURL: 'https://static.tannercampbell.dev',
-  },
+  //   app: {
+  //     cdnURL: 'https://static.tannercampbell.dev',
+  //   },
 
   headlessui: {
     prefix: 'Headless',
