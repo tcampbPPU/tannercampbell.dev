@@ -32,7 +32,7 @@ provide('files', files)
 </script>
 
 <template>
-  <div>
+  <div class="selection:bg-purple-700 selection:text-white dark:selection:bg-purple-300 dark:selection:text-black">
     <!-- <Announcements /> -->
     <UContainer>
       <NavHeader />
