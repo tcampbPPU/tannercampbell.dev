@@ -4,7 +4,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   site: {
-    url: 'https://tannercampbell.com',
+    // url: 'https://tannercampbell.com',
+    url: 'https://tannercampbell-dev.vercel.app',
   },
 
   extends: [
@@ -18,8 +19,6 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-headlessui',
     'nuxt-icon',
-    'nuxt-og-image',
-    'nuxt-simple-sitemap',
     'nuxt-simple-robots',
     'dayjs-nuxt',
   ],
